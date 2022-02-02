@@ -1,0 +1,70 @@
+$Font1:'Josefin Sans', sans-serif;
+$Font2:'Alata', sans-serif;
+$RedColor:hsl(353, 100%, 62%);
+$OrangeColor:hsl(13, 100%, 72%);
+$LightRed: hsl(353, 100%, 62%);
+.IntroContainer{
+    background-image: linear-gradient($OrangeColor,$RedColor );
+    min-height: 500px;
+    border-radius:0px 0px 0px 100px ;
+}
+.IntroInnerContainer{
+    background-image: url("../images/bg-pattern-intro-mobile.svg");
+    display: flex;
+    flex-direction: column;
+    padding: 40px 20px;
+    background-position: 35% 20%;
+    background-size: 1000px;
+    background-repeat: no-repeat;
+    min-height: 500px;
+    border-radius:0px 0px 0px 100px ;
+}
+.header{
+    display: flex;
+    align-items: center;
+}
+.menuIcon{
+    margin-left: auto;
+    cursor: pointer;
+}
+.statementContainer{
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    color: white;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    h1{
+        font-family: $Font1;
+    }
+    div{
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-evenly;
+        a{
+            text-decoration: none;
+            border: 1px solid white;
+            padding: 10px 15px;
+            border-radius:20px ;
+        }
+    }
+}
+.startForFreeBtn{
+    background-color: white;
+    color:$RedColor;
+    font-family: $Font2;
+    &:hover{
+        background-color: $LightRed;
+        color: white;
+        border: 1px solid $LightRed;
+    }
+}
+.learnMoreBtn{
+    color: white;
+    font-family: $Font2;
+    &:hover{
+        background-color: white;
+        color: $RedColor;
+    }
+}

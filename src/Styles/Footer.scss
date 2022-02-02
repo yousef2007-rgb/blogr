@@ -1,0 +1,66 @@
+$bgColor:hsl(240, 10%, 16%);
+$textColor:hsl(240, 2%, 79%);
+$Font1:'Josefin Sans', sans-serif;
+$Font2:'Alata', sans-serif;
+@media (max-width:600px) {
+    .FooterContainer{
+    flex-direction:column ;
+    align-items: center;
+    }
+}
+.FooterContainer{
+    background: $bgColor;
+    padding: 50px 20px;
+    border-radius: 0px 100px 0px 0px;
+    display: flex;
+    justify-content: space-evenly;
+    img{
+        width: fit-content;
+        height: fit-content;
+    }
+}
+.productSection{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    h3{
+        color: white;
+        font-family: $Font1;
+    }
+    a{
+        color: $textColor;
+        text-decoration: none;
+        margin-top: 10px;
+        margin-bottom:10px ;
+    }
+}
+.companySection{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    h3{
+        color: white;
+        font-family: $Font1;
+    }
+    a{
+        color: $textColor;
+        text-decoration: none;
+        margin-top: 10px;
+        margin-bottom:10px ;
+    }
+}
+.connectSection{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    h3{
+        color: white;
+        font-family: $Font1;
+    }
+    a{
+        color: $textColor;
+        text-decoration: none;
+        margin-top: 10px;
+        margin-bottom:10px ;
+    }
+}

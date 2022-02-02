@@ -1,0 +1,91 @@
+.IntroContainer {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ff8f70), to(#ff3d54));
+  background-image: linear-gradient(#ff8f70, #ff3d54);
+  min-height: 500px;
+  border-radius: 0px 0px 0px 100px;
+}
+
+.IntroInnerContainer {
+  background-image: url("../images/bg-pattern-intro-mobile.svg");
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 40px 20px;
+  background-position: 35% 20%;
+  background-size: 1000px;
+  background-repeat: no-repeat;
+  min-height: 500px;
+  border-radius: 0px 0px 0px 100px;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.menuIcon {
+  margin-left: auto;
+  cursor: pointer;
+}
+
+.statementContainer {
+  margin-top: auto;
+  margin-bottom: auto;
+  text-align: center;
+  color: white;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.statementContainer h1 {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.statementContainer div {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.statementContainer div a {
+  text-decoration: none;
+  border: 1px solid white;
+  padding: 10px 15px;
+  border-radius: 20px;
+}
+
+.startForFreeBtn {
+  background-color: white;
+  color: #ff3d54;
+  font-family: "Alata", sans-serif;
+}
+
+.startForFreeBtn:hover {
+  background-color: #ff3d54;
+  color: white;
+  border: 1px solid #ff3d54;
+}
+
+.learnMoreBtn {
+  color: white;
+  font-family: "Alata", sans-serif;
+}
+
+.learnMoreBtn:hover {
+  background-color: white;
+  color: #ff3d54;
+}
+/*# sourceMappingURL=Intro.css.map */

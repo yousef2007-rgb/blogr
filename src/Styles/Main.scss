@@ -1,0 +1,135 @@
+$Font1:'Josefin Sans', sans-serif;
+$Font2:'Alata', sans-serif;
+$blueColor:hsl(237, 17%, 21%);
+$lighterBlue: hsl(237, 23%, 32%);
+@media (max-width:800px) {
+    .futureImage{
+        order: 1;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .futureDescription{
+    text-align: center;
+    order: 2;
+    }
+    .futureContainer{
+    display: flex;
+    flex-direction: column;
+    }
+    
+.phoneImage{
+    max-width: 100%;
+    position:absolute;
+    margin-left: auto;
+    margin-right: auto;
+    top: -150px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+.artSection{
+    margin-top: 250px;
+    background-color: $blueColor;
+    border-radius: 0px 100px 0px 100px;
+    background-image: url('../images//bg-pattern-circles.svg');
+    background-size: 120%;
+    background-position: 50% -50%;
+    background-repeat: no-repeat;
+    position: relative;
+    min-height:600px ;
+    display: flex;
+    flex-direction: column;
+}
+.artSectionArticle{
+    padding: 20px;
+    h1{
+        color: white;
+        font-family: $Font1;
+    }
+    p{
+        color: white;
+        font-family: $Font2;
+    }
+    margin-top: auto;
+    margin-bottom: 50px;
+}
+}
+@media (min-width:800px) {
+    .futureImage{
+        order: 2;
+    }
+    .futureDescription{
+        text-align: left;
+        width: 50%;
+        order: 1;
+    }
+    .futureContainer{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding:0px 50px;
+    }
+    .phoneImage{
+        max-width: 100%;
+        position:absolute;
+        margin-top: auto;
+        margin-bottom: auto;
+        top: 0;
+        left: 0;
+        bottom: 0;
+    }
+    .artSection{
+        margin-top: 250px;
+        background-color: $blueColor;
+        border-radius: 0px 100px 0px 100px;
+        background-image: url('../images//bg-pattern-circles.svg');
+        background-size: 120%;
+        background-position: 50% -50%;
+        background-repeat: no-repeat;
+        position: relative;
+        min-height:400px ;
+        display: flex;
+        flex-direction: column;
+    }
+    .artSectionArticle{
+        max-width: 300px;
+        padding: 20px;
+        h1{
+            color: white;
+            font-family: $Font1;
+        }
+        p{
+            color: white;
+            font-family: $Font2;
+        }
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: auto;
+    }
+}
+.MainContainer{
+    padding: 10px;
+    text-align: center;
+    h2{
+        margin-top: 20px;
+        font-family: $Font1;
+        color: $blueColor;
+    }
+    p{
+        font-family: $Font2;
+        color: gray;
+    }
+    
+}
+.futureImage{
+    width: 50%;
+    img{
+        width: 100%;
+    }
+}
+
+
+.futureDescription{
+    display: flex;
+    flex-direction: column;
+}
